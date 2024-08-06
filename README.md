@@ -2,7 +2,10 @@
 
 ## Overview
 
-This project analyzes network latency data obtained from a router ping test to Google's DNS server (8.8.8.8). The primary goal is to identify patterns in packet loss and latency by visualizing sequence numbers and round-trip times. The project demonstrates the use of Python for data parsing, cleaning, and analysis, leveraging tools like Pandas and Matplotlib for data manipulation and visualization.
+This project analyzes network latency data obtained from a router ping test (with 99 packets transmitted & received) to Google's DNS server (8.8.8.8). 
+The primary goal is to identify patterns in packet loss and latency by visualizing sequence numbers and round-trip times. 
+The project demonstrates the use of Python for data parsing, cleaning, and analysis, leveraging the pandas and matplotlib libraries 
+for data manipulation and visualization.
 
 ## Project Structure
 
