@@ -7,16 +7,11 @@ The primary goal is to identify patterns in packet loss and latency by visualizi
 The project demonstrates the use of Python for data parsing, cleaning, and analysis, leveraging the pandas, seaborn, and matplotlib libraries 
 for data manipulation and visualization.
 
-## Project Structure
-
-- **Data Import**: The data is imported from a text file (`ping_test.txt`) containing ping test results.
-- **Data Cleaning**: The raw data is parsed and cleaned to extract relevant information such as sequence numbers and round-trip times.
-- **Data Analysis**: Using pandas and matplotlib libraries, the data is analyzed to identify packet loss and latency patterns.
-- **Visualization**: The results are visualized through graphs that depict the relationship between sequence numbers and round-trip times.
-
 ## Key Results
 
 ![Plot: Router latency](router_latency.png)
+
+The sudden ping spike (highlighted in red) hints at a latency issue.
 
 The analysis provided the following key metrics from the ping test data:
 
@@ -25,7 +20,12 @@ The analysis provided the following key metrics from the ping test data:
 - **Maximum ping**: 37.17 ms
 - **Minimum ping**: 14.52 ms
 
-The sudden ping spike (highlighted in red) hints at a latency issue.
+## Project Structure
+
+- **Data Import**: The data is imported from a text file (`ping_test.txt`) containing ping test results.
+- **Data Cleaning**: The raw data is parsed and cleaned to extract relevant information such as sequence numbers and round-trip times.
+- **Data Analysis**: Using pandas and matplotlib libraries, the data is analyzed to identify packet loss and latency patterns.
+- **Visualization**: The results are visualized through graphs that depict the relationship between sequence numbers and round-trip times.
 
 ## Technologies Used
 
