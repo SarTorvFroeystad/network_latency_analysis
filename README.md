@@ -16,6 +16,8 @@ for data manipulation and visualization.
 
 ## Key Results
 
+![Plot: Router latency](router_latency.png)
+
 The analysis provided the following key metrics from the ping test data:
 
 - **Number of packets sent & received**: 99
